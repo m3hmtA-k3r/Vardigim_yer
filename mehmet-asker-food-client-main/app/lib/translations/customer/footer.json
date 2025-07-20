@@ -1,0 +1,37 @@
+{
+    "companyInfo": {
+        "name": "FoodApp",
+        "description": "We deliver the most delicious meals right to your doorstep. Fresh ingredients, fast delivery, and affordable prices."
+    },
+    "contact": {
+        "title": "Contact",
+        "address": {
+            "emoji": "📍",
+            "text": "123 Main Street London, UK"
+        },
+        "phone": {
+            "emoji": "📞",
+            "number": "+44 (207) 123 4567"
+        },
+        "email": {
+            "emoji": "✉️",
+            "address": "info@foodapp.com"
+        },
+        "hours": {
+            "emoji": "⏰",
+            "text": "24/7 Service"
+        }
+    },
+    "copyright": {
+        "text": "© {year} FoodApp. All rights reserved."
+    },
+    "payment": {
+        "title": "Secure Payment Methods:",
+        "methods": {
+            "card": "💳",
+            "bank": "🏦",
+            "mobile": "📱"
+        },
+        "security": "SSL Secure Shopping"
+    }
+}

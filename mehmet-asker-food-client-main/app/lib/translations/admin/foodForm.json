@@ -1,0 +1,49 @@
+{
+    "form": {
+        "foodName": {
+            "label": "Food Name",
+            "placeholder": "Enter food name"
+        },
+        "category": {
+            "label": "Category",
+            "placeholder": "Select category"
+        },
+        "price": {
+            "label": "Price ($)",
+            "placeholder": "Enter price"
+        },
+        "preparationTime": {
+            "label": "Preparation Time (min)",
+            "placeholder": "Enter preparation time"
+        },
+        "description": {
+            "label": "Description",
+            "placeholder": "Enter description"
+        },
+        "ingredients": {
+            "label": "Ingredients",
+            "addButton": "+ Add Ingredient",
+            "removeButton": "Remove",
+            "placeholder": "Enter ingredient name"
+        },
+        "image": {
+            "label": "Image",
+            "dragText": "Click or drag file to upload",
+            "hint": "Maximum file size: 5MB"
+        },
+        "availability": {
+            "label": "Available"
+        }
+    },
+    "buttons": {
+        "save": "Save",
+        "saving": "Saving..."
+    },
+    "messages": {
+        "imageOnly": "You can only upload image files!",
+        "imageSizeLimit": "Image must be smaller than 5MB!",
+        "uploadError": "Error uploading image",
+        "saveSuccess": "Food saved successfully",
+        "saveError": "Error saving food"
+    }
+}

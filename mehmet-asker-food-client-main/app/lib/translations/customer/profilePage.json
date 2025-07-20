@@ -1,0 +1,27 @@
+{
+    "loading": "Loading...",
+    "redirect": "Redirecting...",
+    "title": "My Account",
+    "navigation": {
+        "backToHome": "Back to Home"
+    },
+    "tabs": {
+        "personalInfo": "Personal Information",
+        "addresses": "My Addresses"
+    },
+    "profileInfo": {
+        "title": "Personal Information",
+        "editProfile": "Edit Profile",
+        "cancel": "Cancel",
+        "save": "Save",
+        "fullName": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "address": "Address",
+        "city": "City",
+        "postalCode": "Postal Code",
+        "country": "Country",
+        "saveChanges": "Save Changes",
+        "memberSince": "Member Since"
+    }
+}

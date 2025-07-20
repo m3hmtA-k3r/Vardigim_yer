@@ -1,0 +1,29 @@
+{
+    "search": {
+        "placeholder": "Search for foods..."
+    },
+    "categories": {
+        "all": "All Categories"
+    },
+    "loading": "Loading...",
+    "error": {
+        "title": "Error",
+        "fetchCategories": "Failed to fetch categories",
+        "fetchFoods": "Failed to fetch foods",
+        "loginRequired": "Please login to add items to cart!"
+    },
+    "noResults": "No foods found",
+    "foodCard": {
+        "sale": "Sale",
+        "addToCart": "Add to Cart",
+        "notAvailable": "Not Available",
+        "available": "Available"
+    },
+    "pagination": {
+        "showing": "Showing",
+        "of": "of",
+        "results": "results",
+        "previous": "Previous",
+        "next": "Next"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "title": "My Orders",
+    "loading": "Loading...",
+    "error": {
+        "title": "Error",
+        "loginRequired": "Please login to view your orders",
+        "fetchError": "Failed to fetch orders",
+        "cancelError": "Failed to cancel order",
+        "genericError": "An error occurred while fetching orders",
+        "cancelGenericError": "An error occurred while canceling the order"
+    },
+    "noOrders": {
+        "title": "No Orders Found",
+        "description": "You haven't placed any orders yet."
+    },
+    "orderStatus": {
+        "pending": "In progress",
+        "confirmed": "Confirmed",
+        "delivered": "Delivered",
+        "cancelled": "Cancelled"
+    },
+    "orderDetails": {
+        "orderId": "Order ID",
+        "moreItems": "& {count} more item",
+        "moreItemsPlural": "& {count} more items",
+        "showDetails": "Show Details",
+        "hideDetails": "Hide Details",
+        "cancelOrder": "Cancel Order",
+        "quantity": "Quantity",
+        "totalAmount": "Total Amount",
+        "deliveryAddress": "Delivery Address"
+    }
+}

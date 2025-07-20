@@ -1,0 +1,114 @@
+{
+    "stats": {
+        "totalFoods": "Total Foods",
+        "availableFoods": "Available Foods",
+        "unavailableFoods": "Unavailable Foods",
+        "totalCategories": "Total Categories"
+    },
+    "table": {
+        "columns": {
+            "food": "Food",
+            "category": "Category",
+            "price": "Price",
+            "status": "Status",
+            "rating": "Rating",
+            "actions": "Actions"
+        },
+        "status": {
+            "available": "Available",
+            "unavailable": "Unavailable"
+        },
+        "actions": {
+            "edit": "Edit",
+            "delete": "Delete",
+            "discount": "Discount"
+        },
+        "pagination": {
+            "total": "Total {total} foods"
+        }
+    },
+    "filters": {
+        "searchPlaceholder": "Search foods...",
+        "allCategories": "All Categories"
+    },
+    "buttons": {
+        "refresh": "Refresh",
+        "addNewFood": "Add New Food",
+        "applyBulkDiscount": "Apply Bulk Discount",
+        "cancelAllDiscounts": "Cancel All Discounts"
+    },
+    "modal": {
+        "addTitle": "Add New Food",
+        "editTitle": "Edit Food",
+        "discountTitle": "Apply Bulk Discount",
+        "singleDiscountTitle": "Apply Discount to Product",
+        "form": {
+            "name": {
+                "label": "Food Name",
+                "required": "Please enter food name"
+            },
+            "description": {
+                "label": "Description",
+                "required": "Please enter description"
+            },
+            "price": {
+                "label": "Price ($)",
+                "required": "Please enter price"
+            },
+            "category": {
+                "label": "Category",
+                "required": "Please select category"
+            },
+            "image": {
+                "label": "Image",
+                "required": "Please add an image or enter URL",
+                "placeholder": "Enter image URL or drag image",
+                "dragText": "Click or drag image to upload"
+            },
+            "status": {
+                "available": "Available",
+                "unavailable": "Unavailable"
+            },
+            "discount": {
+                "label": "Apply Discount",
+                "percentageLabel": "Discount Percentage",
+                "percentageRequired": "Please enter discount percentage",
+                "percentageRange": "Discount must be between 0-100",
+                "currentDiscount": "Current Discount",
+                "note": {
+                    "category": "Note: Discount will be applied only to products in the selected category.",
+                    "all": "Note: Discount will be applied to all products."
+                }
+            },
+            "buttons": {
+                "cancel": "Cancel",
+                "save": "Save",
+                "update": "Update",
+                "applyDiscount": "Apply Discount"
+            }
+        }
+    },
+    "messages": {
+        "success": {
+            "add": "Food added successfully",
+            "update": "Food updated successfully",
+            "delete": "Food deleted successfully",
+            "statusUpdate": "Food status updated",
+            "refresh": "Foods refreshed",
+            "discountApplied": "Discount applied successfully",
+            "discountUpdated": "Discount updated successfully",
+            "discountCanceled": "Discount canceled successfully"
+        },
+        "error": {
+            "load": "Error loading foods",
+            "add": "Error adding food",
+            "update": "Error updating food",
+            "delete": "Error deleting food",
+            "statusUpdate": "Error updating food status",
+            "refresh": "Error refreshing foods",
+            "applyDiscount": "Error applying discount",
+            "updateDiscount": "Error updating discount",
+            "session": "Session not found"
+        }
+    }
+}

@@ -1,0 +1,133 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Dosya yaratma işlemlerini gerçekleştirme
+
+Gerekli tüm kütüphaneleri ekle ve gerekli tüm kütüphanelerin eklendiğinden emin ol
+
+Sıfırdan Proje Geliştirmeyi Başlatma
+Projeyi oluştururken MVVM programlama standartını kullan.
+Gerekli klasörleri yarat ve gerekli klasörlerin yaratıldığından
+emin ol. İsteğimi olabildiğince az kod yazarak gerçekleştirmeye çalış.
+Yazılan kodun SOLID prensiplerine uygun olduğundan emin ol.
+
+
+Kodun okunabilirliğini artırmak için uygun isimlendirmeler veyorum satırları ekle.
+Metot ve sınıfların tek bir sorumluluğu olmasına dikkat et.
+İsteğimi tamamlayana kadar durma.
+
+ Kod Güvenliğini Arttırma
+API isteklerinde gerekli validasyonları yap.
+Hassas verilerin güvenli bir şekilde saklanmasını sağla.
+Güvenlik açıklarına karşı gerekli kontrolleri ekle.
+
+⚡ Uygulama Performansını İyileştirme
+Memory leak oluşturmayacak şekilde kod yaz. Mevcut kodları Memory leak oluşturmayacak şekilde yeniden düzenle.
+Gereksiz döngü ve işlemleri kaldır.
+Veritabanı sorgularını optimize et.
+
+Kodun İleride Bakımını Kolaylaştırma
+
+Kodun ileride genişletilebilir ve geliştirilebilir olmasına dikkat ederek kod yaz.
+Tekrar eden kodları ortak metodlara al.
+Dependency Injection kullanarak bağımlılıkları yönet.
+
+UI/UX İyileştirmelerini Uygulama
+Responsive tasarım prensiplerine uygun kod yaz.
+Uzun işlemlerde iptal seçeneği sun.
+İşlem sonuçlarını toast/snackbar ile bildir.
+Tüm sayfalarda tutarlı font ve spacing kullan.
+İsteğimdeki görselleri internetten kendin bulup ekle.
+
+Food E-Ticaret Platformu - Proje Açıklaması
+Bu platform, restoranların ya da bireysel satıcıların yemek ürünlerini online olarak satışa sunmasını ve kullanıcıların hızlıca sipariş verebilmesini sağlar. Sistem hem kullanıcı (önyüz) hem de yönetici (admin paneli) arayüzü ile tam işlevsellik sunar.
+
+Temel Özellikler
+Kullanıcı (Önyüz)
+Ürünleri kategori bazlı listeleme (ör. Pizza, Tatlılar, İçecekler)
+
+Filtreleme ve sıralama (fiyat, popülerlik, puanlama)
+
+Ürün detay sayfası
+
+Sepet ve ödeme adımları
+
+Sipariş durumu takibi
+
+Kullanıcı oturum (giriş/kayıt) sistemi
+
+Mobil uyumlu tasarım
+
+Admin Paneli
+Ürün ekleme/düzenleme/silme
+
+Sipariş yönetimi (durum güncelleme, iptal etme)
+
+Kullanıcı listesi ve detayları
+
+Kategori ve stok yönetimi
+
+İstatistik ve satış grafikleri
+
+🧑‍💻 Web Uygulama Geliştirici Kılavuzu
+Stack:
+
+Frontend: Next.js + TailwindCSS + Redux Toolkit
+
+Backend: Node.js (Express)
+
+Database: MongoDB (mongodb://localhost:27017/foodapp)
+
+⚡ Performans
+Next.js ile önyüzde SSR (Server-Side Rendering) ve uygun sayfalar için SSG (Static Site Generation) kullan
+
+Dinamik import ile bileşenleri parçalara ayır ve sadece ihtiyaç anında yükle (ör. ürün detay modalı)
+
+Backend'de tüm I/O işlemlerini async/await ile yap, eş zamanlı işlemler için Promise.all() kullan
+API endpoint’lerinde gereksiz middleware kullanmaktan kaçın; erken dönüş (early return) stratejisi uygula
+
+🧠 Optimizasyon
+TailwindCSS'de JIT (Just-In-Time) modunu aktif et
+
+Ortak bileşenleri ve yardımcı fonksiyonları shared/ veya components/common/ klasöründe grupla (örn. Button, ProductCard)
+
+Backend için Express kullan, server.js içinde sade ve performanslı yapı kur
+
+Sık kullanılan sabitler ve enum'ları merkezi bir dosyada tanımla (constants/ dizini)
+
+🎨 UI/UX
+Kullanıcı deneyimini artırmak için:
+
+cursor-pointer, cursor-not-allowed, cursor-wait gibi tanımları aktif kullan
+
+Hover/focus durumlarında transition-all, duration-150 gibi sınıflarla etkileşim hissi ver
+
+Admin panelinde:
+
+Kullanıcı dostu formlar ve input validasyonları
+
+Veri tabanından gelen hataları kullanıcıya açık şekilde göster
+
+Tüm interaktif bileşenlerde:
+
+tabIndex="0", aria-label gibi etiketlerle erişilebilirlik (a11y) kurallarına uy
+
+🛡️ Güvenlik
+API rotalarında gelen verileri mutlaka doğrula ve sanitize et (ör. express-validator, sanitize-html)
+
+CSRF koruması için csurf middleware’i kullan
+
+XSS önlemi için gelen kullanıcı verilerini escape et
+
+.env.local dosyasında tüm hassas verileri tut; bu dosya .gitignore içinde olmalı
+
+⚙️ State Management
+Redux Toolkit kullan:
+
+Global state (sepet, kullanıcı, ürün filtreleme) için slice yapısı kullan
+
+API çağrıları için createAsyncThunk kullanarak async işlemleri yönet
+
+redux-persist ile kullanıcı oturumu gibi kalıcı verileri localStorage’da sakla

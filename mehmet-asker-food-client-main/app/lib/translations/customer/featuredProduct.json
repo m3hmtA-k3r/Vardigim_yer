@@ -1,0 +1,13 @@
+{
+    "featuredProduct": {
+        "title": "Featured Products",
+        "description": "Discover our most popular and delicious products",
+        "notAvailable": "Not Available"
+    },
+    "footer": {
+        "viewAllProducts": "View All Products"
+    },
+    "alert": {
+        "login": "Please login to add to cart"
+    }
+}

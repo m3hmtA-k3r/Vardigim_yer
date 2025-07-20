@@ -1,0 +1,30 @@
+{
+    "title": {
+        "part1": "The Most Delicious",
+        "highlight": "Food",
+        "part2": "At Your Door!"
+    },
+    "subtitle": "Order your favorite meals with fresh ingredients, fast delivery, and affordable prices.",
+    "deliveryCard": {
+        "title": "Fast Delivery",
+        "subtitle": "At your door in 30 minutes"
+    },
+    "stats": {
+        "customers": {
+            "value": "1000+",
+            "label": "Happy Customers"
+        },
+        "products": {
+            "value": "50+",
+            "label": "Delicious Products"
+        },
+        "delivery": {
+            "value": "30min",
+            "label": "Fast Delivery"
+        },
+        "support": {
+            "value": "24/7",
+            "label": "Customer Support"
+        }
+    }
+}

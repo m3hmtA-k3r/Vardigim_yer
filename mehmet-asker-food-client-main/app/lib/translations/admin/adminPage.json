@@ -1,0 +1,14 @@
+{
+    "title": "Admin Panel",
+    "loading": "Loading...",
+    "redirecting": "Redirecting...",
+    "noAccess": "You don't have access to this page.",
+    "tabs": {
+        "users": "User Management",
+        "foods": "Food Management",
+        "categories": "Category Management",
+        "orders": "Order Management"
+    },
+    "logout": "Logout",
+    "routingToAdminPanel": "Routing to Admin Panel..."
+}

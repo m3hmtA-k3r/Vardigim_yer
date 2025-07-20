@@ -1,0 +1,32 @@
+{
+    "title": "Why Choose Us?",
+    "description": "We make a difference with our customer satisfaction-oriented service approach and quality products",
+    "features": {
+        "fastDelivery": "Fast Delivery",
+        "qualityIngredients": "Quality Ingredients",
+        "experiencedChefs": "Experienced Chefs",
+        "affordablePrices": "Affordable Prices",
+        "securePayment": "Secure Payment",
+        "customerSupport": "Customer Support"
+    },
+    "stats": {
+        "happyCustomers": "Happy Customers",
+        "deliciousProducts": "Delicious Products",
+        "deliveredOrders": "Delivered Orders",
+        "averageRating": "Average Rating"
+    },
+    "featuresDescription": {
+        "fastDelivery": "At your door within 30 minutes! We deliver hot and fresh.",
+        "qualityIngredients": "We only use the freshest and highest quality ingredients.",
+        "experiencedChefs": "Our expert chefs prepare each meal with care.",
+        "affordablePrices": "We offer the most delicious meals at reasonable prices.",
+        "securePayment": "Shop securely with SSL certified payment system.",
+        "customerSupport": "We're always here for you. 24/7 customer support service."
+    },
+    "statsPoints": {
+        "happyCustomers": "1000+",
+        "deliciousProducts": "50+",
+        "deliveredOrders": "5000+",
+        "averageRating": "4.8"
+    }
+}

@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@layer components {
+.btn {
+        @apply inline-flex items-center justify-center rounded-lg font-medium transition-all duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed;
+    }
+
+    /* Button Variants */
+    .btn-primary {
+        @apply bg-[#EA580C] text-white hover:bg-[#C2410C] focus:ring-[#F97316] shadow-sm;
+    }
+
+    .btn-secondary {
+        @apply bg-[#16A34A] text-white hover:bg-[#15803D] focus:ring-[#22C55E] shadow-sm;
+    }
+
+    .btn-outline {
+        @apply border border-[#D4D4D4] bg-white text-[#404040] hover:bg-[#fafafa] focus:ring-[#737373];
+    }
+
+    .btn-ghost {
+        @apply text-[#404040] hover:bg-[#fafafa] focus:ring-[#737373];
+    }
+
+    /* Button Sizes */
+    .btn-sm {
+        @apply px-3 py-1.5 text-sm;
+    }
+
+    .btn-md {
+        @apply px-4 py-2 text-sm;
+    }
+
+    .btn-lg {
+        @apply px-6 py-3 text-base;
+    }
+}
+
+/*
+
+
+colors: {
+        primary: {
+            50: '#fff7ed',
+                100: '#ffedd5',
+                200: '#fed7aa',
+                300: '#fdba74',
+                400: '#fb923c',
+                500: '#f97316',
+                600: '#ea580c',
+                700: '#c2410c',
+                800: '#9a3412',
+                900: '#7c2d12',
+                950: '#431407',
+        }
+
+        ,
+        secondary: {
+            50: '#f0fdf4',
+                100: '#dcfce7',
+                200: '#bbf7d0',
+                300: '#86efac',
+                400: '#4ade80',
+                500: '#22c55e',
+                600: '#16a34a',
+                700: '#15803d',
+                800: '#166534',
+                900: '#14532d',
+                950: '#052e16',
+        }
+
+        ,
+        accent: {
+            50: '#fef2f2',
+                100: '#fee2e2',
+                200: '#fecaca',
+                300: '#fca5a5',
+                400: '#f87171',
+                500: '#ef4444',
+                600: '#dc2626',
+                700: '#b91c1c',
+                800: '#991b1b',
+                900: '#7f1d1d',
+                950: '#450a0a',
+        }
+
+        ,
+        neutral: {
+            50: '#fafafa',
+                100: '#f5f5f5',
+                200: '#e5e5e5',
+                300: '#d4d4d4',
+                400: '#a3a3a3',
+                500: '#737373',
+                600: '#525252',
+                700: '#404040',
+                800: '#262626',
+                900: '#171717',
+                950: '#0a0a0a',
+        }
+
+        ,
+    }
+
+    ,
+
+
+
+
+
+*/

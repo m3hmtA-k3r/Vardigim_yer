@@ -1,0 +1,22 @@
+{
+    "failedLoadingAdress":"Failed to load addresses",
+    "failedAddingAdress":"Failed to add address",
+    "failedToChangeDefaultAddress":"Failed to change default address",
+    "areYouSureToDeleteAddress":"Are you sure you want to delete this address?",
+    "failedToDeleteAddress":"Failed to delete address",
+    "loading":"Loading...",
+    "myAddresses":"My Addresses",
+    "addNewAddress":"Add New Address",
+    "noAddresses":"You don't have any saved addresses yet.",
+    "default":"Default",
+    "setAsDefault":"Set as Default",
+    "addressTitle":"Address Title",
+    "streetAddress":"Street Address",
+    "city":"City",
+    "district":"District",
+    "postalCode":"Postal Code",
+    "phoneNumber":"Phone Number",
+    "saveAddress":"Save Address",
+    "cancel":"Cancel",
+    "save":"Save"
+}

@@ -1,0 +1,104 @@
+{
+    "stats": {
+        "totalOrders": "Total Orders",
+        "pendingPayment": "Pending Payment",
+        "delivered": "Delivered",
+        "totalRevenue": "Total Revenue (Paid)"
+    },
+    "table": {
+        "columns": {
+            "orderId": "Order ID",
+            "customer": {
+                "title": "Customer",
+                "unknown": "Unknown User",
+                "noEmail": "No email"
+            },
+            "products": {
+                "title": "Products",
+                "itemCount": "{count} items"
+            },
+            "status": "Status",
+            "orderDate": "Order Date"
+        },
+        "status": {
+            "pending": "Order Received",
+            "confirmed": "Payment Completed",
+            "preparing": "Preparing",
+            "ready": "Ready",
+            "delivered": "Delivered",
+            "cancelled": "Cancelled"
+        },
+        "payment": {
+            "completed": "Payment Completed",
+            "pending": "Payment Pending",
+            "failed": "Payment Failed"
+        },
+        "actions": {
+            "detail": "Detail",
+            "delivered": "Delivered",
+            "confirm": "Confirm Order",
+            "paymentPending": "Payment Pending",
+            "preparing": "Preparing",
+            "ready": "Ready",
+            "deliver": "Deliver",
+            "cancel": "Cancel"
+        },
+        "filters": {
+            "all": "All Orders",
+            "pending": "Order Received",
+            "confirmed": "Payment Completed",
+            "preparing": "Preparing",
+            "ready": "Ready",
+            "delivered": "Delivered",
+            "cancelled": "Cancelled"
+        },
+        "pagination": {
+            "total": "Total {total} orders"
+        }
+    },
+    "drawer": {
+        "title": "Order Detail",
+        "sections": {
+            "customerInfo": {
+                "title": "Customer Information",
+                "name": "Name",
+                "email": "Email"
+            },
+            "deliveryAddress": {
+                "title": "Delivery Address",
+                "addressTitle": "Title",
+                "address": "Address",
+                "districtCity": "District/City",
+                "phone": "Phone"
+            },
+            "orderItems": {
+                "title": "Order Items"
+            },
+            "orderSummary": {
+                "title": "Order Summary",
+                "totalAmount": "Total Amount",
+                "status": "Status",
+                "orderDate": "Order Date"
+            }
+        }
+    },
+    "buttons": {
+        "refresh": "Refresh",
+        "refreshing": "Refreshing..."
+    },
+    "messages": {
+        "success": {
+            "statusUpdate": "Order status updated successfully",
+            "paymentCheck": "{count} order payment status updated"
+        },
+        "error": {
+            "loadOrders": "Error loading orders",
+            "statusUpdate": "Error updating order status",
+            "paymentCheck": "Error checking payment status",
+            "refresh": "Error refreshing orders"
+        },
+        "info": {
+            "noPaymentPending": "No pending payments"
+        }
+    }
+}

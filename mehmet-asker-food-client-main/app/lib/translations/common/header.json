@@ -1,0 +1,24 @@
+{
+    "logo": {
+        "text": "FoodApp"
+    },
+    "navigation": {
+        "home": "Home",
+        "menu": "Menu",
+        "about": "About"
+    },
+    "auth": {
+        "login": "Login",
+        "register": "Register",
+        "logout": "Logout"
+    },
+    "userMenu": {
+        "profile": "Profile",
+        "orders": "My Orders",
+        "adminPanel": "Admin Panel",
+        "cart": "My Cart"
+    },
+    "mobile": {
+        "close": "Close Menu"
+    }
+}
